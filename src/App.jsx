@@ -186,7 +186,7 @@ import { useState } from "react";
           </div>
         ) : (
           <div>
-            <h2>Thank you for completing the quiz, {name}!</h2>
+            <h2>{name} you have completed the quiz!</h2>
             <p>Your total score is: {score}</p>
 
             {score <= 13 && (
